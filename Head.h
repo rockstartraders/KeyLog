@@ -17,11 +17,11 @@ class KeyPair
 class keys_bu
 {
 public:
-    static std::map<int, Keypair> KEYS_B;
+    static std::map<int, KeyPair> KEYS_B;
 
 };
 
-std::map<int, Keypair> keys_bu::KEYS_B = {
+std::map<int, KeyPair> keys_bu::KEYS_B = {
 
 //Character Map for triggers
 
@@ -216,7 +216,9 @@ std::map<int, Keypair> keys_bu::KEYS_B = {
     {0xAF, {"[VK_VOLUME_UP]", "[Volume Up]"}},
     {0x05, {"[VK_XBUTTON1]", "[X Button 1 **]"}},  // Mouse Button
     {0x06, {"[VK_XBUTTON2]", "[X Button 2 **]"}},  // Mouse Button
+
 }
+
 
 #endif // Head_H
 

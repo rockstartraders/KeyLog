@@ -35,11 +35,11 @@ namespace Base64
               std::string ret;   //output string
               int val = 0;
               int bits = -6; // no. of bits is group of 6
-              const unsigned int b63 = 0x3F      //Hexidecimal value
+              const unsigned int b63 = 0x3F;     //Hexidecimal value
 
               for(const auto &c :s)
               {
-                  val = (val << 8) + c   // resulting number will be shifetr 8 places
+                  val = (val << 8) + c;  // resulting number will be shifetr 8 places
                   bits += 8;  // will add 8 to the number of bits
                   while(bits >= 0)
                   {
