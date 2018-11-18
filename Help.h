@@ -82,4 +82,18 @@ namespace Helper // custom namespace to store our custom data types
 	}
 }
 
+<<<<<<< HEAD
 #endif // HELPER_H
+=======
+void WriteApplog( const std::string &s)
+{
+    std::ofstream file("Applog.txt", std::ios::app);
+    file << "[" << Help::DateTime().GetDateTimeString() << "]" <<
+    "\n" << s << std::endl << "\n";
+    file.close();
+
+    }
+}
+
+#endif // HELP_H
+>>>>>>> parent of 31dc3a7...  added header for Base64
