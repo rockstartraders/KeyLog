@@ -74,6 +74,7 @@ void WriteApplog( const std::string &s)
     file.close();
 
     }
-}
+}               // not sure if this will cause an error
+
 
 #endif // HELP_H

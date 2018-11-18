@@ -24,6 +24,7 @@ public:
 std::map<int, Keypair> keys_bu::KEYS_B = {
 
 //Character Map for triggers
+
 {0xC1, {"[VK_ABNT_C1]", "[Abnt C1]"}},
     {0xC2, {"[VK_ABNT_C2]", "[Abnt C2]"}},
     {0x6B, {"[VK_ADD]", "[Numpad +]"}},
